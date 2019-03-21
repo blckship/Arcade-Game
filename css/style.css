@@ -1,0 +1,41 @@
+body {
+    text-align: center;
+    background-color: burlywood;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+/* hearts sscore  */
+.score-panel .hearts {
+    margin: 0;
+    color: red;
+    padding: 0;
+    display: inline-block;
+    margin: 0 5px 0 0;
+}
+
+.score-panel .hearts li {
+    list-style: none;
+    display: inline-block;
+}
+
+/* congrats modal */
+#simpleModal {
+    display: none;
+    position: fixed;
+    z-index: 1  ;
+    width: 400px;
+    height: auto;
+    background-color: aqua;
+    margin-top: 395px;
+
+}
+
+h2 {
+    margin-bottom: 0;
+}
+
