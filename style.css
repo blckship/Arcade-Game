@@ -1,0 +1,44 @@
+body {
+    text-align: center;
+    background: rgb(34, 193, 195);
+    background: linear-gradient(135deg, rgba(34, 193, 195, 1) 0%, rgba(235, 0, 12, 1) 100%);
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+/* hearts sscore  */
+
+.score-panel .hearts {
+    margin: 0;
+    color: red;
+    padding: 0;
+    display: inline-block;
+    margin: 0 5px 0 0;
+}
+
+.score-panel .hearts li {
+    list-style: none;
+    display: inline-block;
+}
+
+/* congrats modal */
+
+#simpleModal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    width: 400px;
+    height: auto;
+    background: rgb(235, 0, 12);
+    background: linear-gradient(135deg, rgba(235, 0, 12, 1) 0%, rgba(34, 193, 195, 1) 100%);
+    margin-top: 395px;
+}
+
+h2 {
+    margin-bottom: 0;
+}
